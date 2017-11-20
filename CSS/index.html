@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <title>Learning CSS</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+        .large {
+           font-size: 200%; 
+        }
+        .white {
+            color:white;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+        div{
+            width:100px;
+            height:100px;
+            float:left;
+            margin: 10px;
+        }
+        .redbox{
+            background-color:red;
+            border-style: ridge solid dotted dashed;
+            border-width: 10px 5px 15px 1px;
+            border-color: green yellow blue orange
+        }
+        .bluebox{
+            background-color:blue;
+        }
+        .greenbox{
+            background-color:green;
+            border-radius: 50px;
+        }
+        .clear {
+            clear: both;
+        }
+        p{
+            padding:0;
+            margin:0;
+            float:left;
+        }
+    </style>    
+</head>
+
+<body>
+
+    <div class="redbox">
+        <p class="large white">Red</p>
+    </div>
+    <div class="bluebox">
+        <p class="large white">Blue</p>
+    </div>
+    <div class="greenbox">
+        <p class="large white">Green</p>
+    </div>
+    <div class="clear"></div>
+    <p>The 3rd <span class="underline large">word</span> in this paragraph is underlined.</p>
+</body>
+</html>
